@@ -1,0 +1,51 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 21px;
+}
+
+/* ---- search bar ---- */
+.search{
+    background-color: #212121;
+    border: none;
+    border-radius: 15px;
+    height: 41px;
+    width: 327px;
+    padding: 12px 12px 12px 40px;
+    font-size: 14px;
+    color: #747474;
+    background-image: url('images/lupa.png');
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 17px 17px;
+}
+
+/* ---- butoane navigare ---- */
+.nav-butoane{
+    display: flex;
+    gap:7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    background-color: #212121;
+    color: white;
+    width: 41px;
+    height: 41px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add, .notif, .reels, .explore, .home {
+    width: 24px;
+    height: 24px;
+}
+

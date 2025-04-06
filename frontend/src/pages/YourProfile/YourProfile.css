@@ -1,0 +1,135 @@
+.your-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.your-profile-header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.your-profile-avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+}
+
+.your-profile-stats{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    gap:50px;
+}
+
+.your-profile-stats-number{
+    font-size: 18px;
+    font-weight: 500;
+    color:white;
+}
+
+.your-profile-stats-text{
+    font-size: 16px;
+    font-weight: 500;
+    color:white;
+}
+ 
+.your-profile-story-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.your-profile-story{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    cursor: pointer;
+}
+
+.your-profile-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.your-profile-button{
+    background: linear-gradient(90deg, #0066ff, #00ccff);
+    border: none;
+    border-radius: 10px;
+    width: 120px;
+    height: 36px;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.your-profile-button:hover{
+    background: linear-gradient(90deg, #00ccff, #0066ff);
+}
+
+.your-profile-button2{
+    background-color: #212121;
+    border: none;
+    border-radius: 10px;
+    width: 120px;
+    height: 36px;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.your-profile-button2:hover{
+    background-color: #424242;
+}
+
+.your-profile-posts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.title-your-profile-posts{
+    color:white;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.your-profile-posts-grid{
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    margin-top: 20px;
+    gap:19px;
+    max-width: 750px;
+    margin-bottom: 6px;
+}
+
+.your-profile-post{
+    width: 160px;
+    height: 190px;
+    background-color: white;
+    border-radius: 10px;
+}

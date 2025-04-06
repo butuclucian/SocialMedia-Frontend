@@ -1,0 +1,126 @@
+.feed-container {
+    background-color: #1a1a1a;
+    padding: 16px;
+    border-radius: 12px;
+    margin-top: 24px;
+    width: 100%;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 11px;
+  }
+  
+/* feed user info */
+.feed-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 5px;
+}
+  
+.feed-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: #ccc;
+  display: block; 
+}
+  
+.feed-user {
+  font-weight: 600;
+  font-size: 14px;
+}
+  
+.feed-location {
+  font-size: 12px;
+  color: #848484;
+  font-weight: 300;
+}
+  
+/* feed image */
+.feed-image {
+  width: 100%;
+  border-radius: 8px;
+  margin: 12px 0 0;
+}
+  
+/* post likes comms and send */
+.feed-reactions {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.like-container, .comm-container, .share-container {
+  display: flex;
+  flex-direction: row;
+  padding-right: 10px;
+  margin-right: 2px;
+  gap: 2px;
+}
+
+/* post desc */
+.feed-caption {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+  
+/* comm section */
+.feed-comment {
+  width: 100%;
+  max-width: 376px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 19px;
+  background-color: #2c2c2c;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+}
+  
+.feed-title{
+  position: relative;
+} 
+.feed-section-title{
+  font-size: 22px;
+  font-weight: 600;
+  color: #747474;
+  text-align: left;
+  margin-left:720px;
+  margin-top: 18px;  
+}
+
+.feed-comment-container{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.post-button{
+  background-color: #2c2c2c;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 12px;
+  cursor: pointer;
+  color: #008CFF;
+}
+
+.feed-avatar{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+

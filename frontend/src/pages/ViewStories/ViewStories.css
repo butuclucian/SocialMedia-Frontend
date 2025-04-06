@@ -1,0 +1,28 @@
+.view-{
+    max-width: 1850px;
+}
+
+.v-p-title{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 37px;
+    margin-bottom: 13px;
+}
+
+.view-posts-container{
+    max-width: 604px;
+    margin: auto;
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+}
+
+.p-1{
+    background-color: #212121;
+    border-radius: 10px;
+    width: 188px;
+    height: 260px;
+    align-items: center;
+}

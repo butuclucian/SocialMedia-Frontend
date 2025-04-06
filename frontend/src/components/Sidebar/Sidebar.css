@@ -1,0 +1,282 @@
+/* ---- account section */
+.chenar-account {
+  position: fixed;
+  top: 21px;
+  left: 20px;
+  width: 290px;
+  height: 568px;
+  background-color: #212121;
+  border-radius: 20px;
+  box-shadow: inset 0px 4px 6px rgba(174, 174, 174, 0.25);
+}
+  
+/* settings icon */
+.sidebar-btn{
+  position: absolute;
+  top: 20px;
+  right: 18px;
+  display: flex;
+  gap:7px;
+  padding-left: 7px;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-btn{
+    background-color: #2C2C2C;
+    color: white;
+    width: 41px;
+    height: 41px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  
+  /* account info */
+.account-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+.acc-avatar{
+  height: 80px;
+  width: 80px;
+  background: #D9D9D9;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+  
+.account-name{
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 7px;
+}
+  
+.account-handle{
+  color: #848484;
+  font-size: 12px;
+  font-weight: 500;
+}
+  
+/* account stats */
+.account-stats{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  margin-left: 21px;
+  background-color: #2C2C2C;
+  border-radius: 10px;
+  height: 72px;
+  width: 250px;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  cursor: pointer;
+}
+  
+.stats {
+  font-weight: bold;
+  font-size: 16px;
+}
+  
+.txt {
+  font-size: 12px;
+  color: #999;
+}
+  
+/* account bio */
+.account-bio{
+  color: white;
+  margin-left: 21px;
+  margin-top: 14px;
+  padding-bottom: 4px;
+}
+  
+.bio{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* account story high */
+.story-text{
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+  
+.description{
+  font-size: 12px;
+  font-weight: 300;
+  }
+  
+.account-story{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: 21px;
+  margin-top: 14px;
+  margin-right: 18px;
+}
+
+.story-view-all{
+  color:#848484;
+  font-size: 12px;
+  font-weight: 300;
+  cursor: pointer;
+}
+  
+.story-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+.story-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+  
+.story{
+  width: 50px;
+  height: 50px;
+  background: #D9D9D9;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.story-desc{
+  font-size: 10px;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  margin-top: 5px;
+}
+  
+
+/* account posts */
+.account-posts{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: 21px;
+  margin-top: 14px;
+  margin-right: 18px;
+}
+  
+.posts-text{
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.posts-view-all{
+  color:#848484;
+  font-size: 12px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.posts-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+.posts-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+  
+.post{
+  width: 80px;
+  height: 80px;
+  background: #D9D9D9;
+  border-radius: 5px;
+  cursor: pointer;
+}
+  
+
+
+/* ---- messages section ------ */
+.chenar-messages{
+  position: fixed;
+  top: 602px;
+  left: 20px;
+  bottom: 21px;
+  width: 290px;
+  height: 290px;
+  background-color: #212121;
+  border-radius: 20px;
+  box-shadow: inset 0px 4px 6px rgba(174, 174, 174, 0.25);
+}
+  
+.messages-title{
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 17px;
+  padding-top: 15px;
+}
+  
+.messages-view-all{
+  font-size: 12px;
+  font-weight: 300;
+  position: absolute;
+  right:18px;
+  top:20px;
+  color:#848484;
+  cursor: pointer;
+}
+
+.message-user {
+  display: flex;
+  align-items: center;
+  padding-left: 17px;
+  padding-right: 25px;
+  padding-top: 13px;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+  
+.profile-pct {
+  width: 40px;
+  height: 40px;
+  background: #D9D9D9;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+  
+.username-info {
+  flex-grow: 1;
+}
+  
+.username {
+  color: white;
+  font-weight: 600;
+  margin: 0;
+  font-size: 14px;
+}
+  
+.msg {
+  color: #848484;
+  font-size: 12px;
+  margin: 0;
+  font-weight: 300;
+  }
+  
+.message-time{
+  font-size: 12px;
+  font-weight: 300;
+  color: #848484;
+}

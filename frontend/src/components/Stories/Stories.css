@@ -1,0 +1,52 @@
+.stories-container {
+    background-color: #1a1a1a;
+    padding: 16px;
+    border-radius: 12px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+  
+.stories-section-title{
+  position: absolute;
+  font-size: 22px;
+  font-weight: 600;
+  color: #747474;
+  text-align: left;
+  margin-left:720px;
+  margin-top: 35px;  
+}
+  
+.stories-scroll {
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
+  
+.story-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 60px;
+}
+  
+.story-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid white;
+  object-fit: cover;
+  background-color: white;
+}
+  
+.story-name {
+  color: white;
+  font-size: 12px;
+  margin-top: 6px;
+}
+  
