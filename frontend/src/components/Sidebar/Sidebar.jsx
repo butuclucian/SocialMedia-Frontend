@@ -50,7 +50,6 @@ const Sidebar = () => {
           </div>
           <div className="story-container">
             <div className="story1">
-              {/* <div className="story"></div> */}
               <img src="https://picsum.photos/440/447" alt="post" className="story" />
               <p className="story-desc">Your Story</p>
             </div>
