@@ -31,7 +31,7 @@ const Messages = () => {
               <div className="message-sender-text">How are you?</div>
             </div>
             <div className="message-sender">
-              <div className="message-sender-img"></div>
+              <img src="https://picsum.photos/483/431" alt="post" className="message-sender-img" />
             </div>
             <div className="message-receiver">
               <div className="message-receiver-text">Hi</div>

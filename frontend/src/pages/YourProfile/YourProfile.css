@@ -105,7 +105,6 @@
     align-items: center;
     width: 100%;
     margin-top: 30px;
-    cursor: pointer;
 }
 
 .title-your-profile-posts{
@@ -132,4 +131,5 @@
     height: 190px;
     background-color: white;
     border-radius: 10px;
+    cursor: pointer;
 }
