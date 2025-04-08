@@ -1,18 +1,23 @@
 import React from 'react'
 import './ViewPosts.css'
 
-const ViewPosts = () => {
+const ViewPosts = ({ onImageClick }) => {
+  const images = [
+    "https://picsum.photos/id/1011/427/401",
+    "https://picsum.photos/id/1012/421/401",
+    "https://picsum.photos/id/1013/425/401",
+    "https://picsum.photos/id/1014/423/401"
+  ]
+
   return (
     <div className='view-posts'>
       <div className="view-posts-title">
         <p className="v-p-title">Your Posts</p>
       </div>
       <div className='view-posts-container'>
-      <img src="https://picsum.photos/427/401" alt="post" className="p-1" />
-      <img src="https://picsum.photos/421/401" alt="post" className="p-1" />
-      <img src="https://picsum.photos/425/401" alt="post" className="p-1" />
-      <img src="https://picsum.photos/423/401" alt="post" className="p-1" />
-
+        {images.map((img, index) => (
+          <img key={index} src={img} alt="post" className="p-1" onClick={() => onImageClick(img)} />
+        ))}
       </div>
     </div>
   )

@@ -10,7 +10,7 @@
     color: white;
     margin-bottom: 25px;
     margin-top: 11px;
-  }
+}
   
 /* feed user info */
 .feed-header {
@@ -90,13 +90,13 @@
   
 .feed-title{
   position: relative;
+  
 } 
 .feed-section-title{
   font-size: 22px;
   font-weight: 600;
   color: #747474;
-  text-align: left;
-  margin-left:720px;
+  text-align: center;
   margin-top: 18px;  
 }
 

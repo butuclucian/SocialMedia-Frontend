@@ -19,9 +19,11 @@ const Navbar = () => {
 
       <div className="nav-butoane">
         <div className="chenar-add">
+          <NavLink to='/createpost'>
           <button className="btn">
             <img className="add" src="/images/add.png" alt="" />
           </button>
+          </NavLink>
         </div>
         <div className="chenar-notif">
           <button className="btn">

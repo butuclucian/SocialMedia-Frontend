@@ -2,8 +2,9 @@ import React from 'react'
 import './ViewStories.css'
 
 const ViewStories = () => {
+
   return (
-    <div className='view-posts'>
+    <div className='view-your-stories'>
       <div className="view-posts-title">
         <p className="v-p-title">Your Stories</p>
       </div>

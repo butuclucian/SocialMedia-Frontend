@@ -16,9 +16,7 @@ const CreatePost = () => {
             <button type="button" className="advanced-settings">Advanced settings</button>
           </form>
         </div>
-        <button type="submit" className="share-button">
-          Share
-        </button>
+        <button type="submit" className="share-button">Share</button>
       </div>
     </>
   );
